@@ -60,6 +60,7 @@ If one of the parameters was invalid the request will look something like:
 ## Installation
 
 Aside from the option to deploy this project on Heroku the instruction below is meant for either a local or standalone setup.
+0. npm install chromium
 
 1. Clone the repo
 ```
