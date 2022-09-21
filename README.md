@@ -91,6 +91,7 @@ cp config-example.json config.json
 6. Run the app
 ```
 npm run start
+ pm2 start index.js
 ```
 
 ## Technologies
