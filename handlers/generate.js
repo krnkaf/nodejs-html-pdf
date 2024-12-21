@@ -41,7 +41,9 @@ module.exports = async function(req, res) {
             pdfOptions.margin[option.replace('margin.', '')] = req.body[option];
         }
     }
+    pdfOptions.format="A2";
 
+ 
     if (!global.browser) {
         global.browser = await puppeteer.launch({ args: ['--no-sandbox'] })
     }
